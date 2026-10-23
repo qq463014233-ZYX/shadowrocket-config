@@ -1,0 +1,28 @@
+# Never commit private nodes, subscriptions, credentials, or certificates.
+.env
+.env.*
+*secret*
+*token*
+*credential*
+*password*
+*subscription*
+*nodes*
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileconfig
+private/
+secrets/
+subscriptions/
+nodes/
+
+# Local work and OS metadata
+work/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

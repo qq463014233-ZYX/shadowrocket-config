@@ -1,0 +1,17 @@
+#!name=Ads Lite - no MITM
+#!desc=Optional small domain blocklist. No certificate or script required. Disable if an app loses content.
+# Created: 2026-10-24. Independently selected domain rules, not a copy of a third-party module.
+# Does not remove ads served from the same domain as normal content, e.g. many video ads.
+
+[Rule]
+DOMAIN-SUFFIX,doubleclick.net,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,googleadservices.com,REJECT
+DOMAIN,adservice.google.com,REJECT
+DOMAIN,app-measurement.com,REJECT
+DOMAIN,ads.mopub.com,REJECT
+DOMAIN,ads.inmobi.com,REJECT
+DOMAIN,sdk.appsflyer.com,REJECT
+DOMAIN,launches.appsflyer.com,REJECT
+DOMAIN,ads.union.jd.com,REJECT
+

@@ -1,0 +1,9 @@
+#!name=Block known HTTPDNS - advanced optional
+#!desc=Keep disabled initially. May break or slow domestic apps and games. Does not catch every app resolver.
+# Source: blackmatrix7/ios_rule_script (GPL-2.0), referenced remotely, not bundled.
+# Content last updated: 2025-06-06. Snapshot commit checked on 2026-10-24.
+# No MITM, script, certificate, or HTTPS decryption.
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/00d82f6c6c374abb947fabc9c1b69f2a22e71dbc/rule/Shadowrocket/BlockHttpDNS/BlockHttpDNS.list,REJECT
+

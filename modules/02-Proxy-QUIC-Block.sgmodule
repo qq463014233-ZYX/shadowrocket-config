@@ -1,0 +1,8 @@
+#!name=Proxy QUIC fallback - optional
+#!desc=Blocks QUIC only for proxied connections. Domestic DIRECT UDP remains allowed. May affect QUIC-only apps.
+# Current Shadowrocket required. See LOWERTOP/Shadowrocket lazy.conf for block-quic semantics.
+# Enable only when proxied video or web browsing is unstable; leave disabled initially.
+
+[General]
+block-quic = all-proxy
+
